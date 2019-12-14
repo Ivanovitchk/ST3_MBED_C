@@ -1,0 +1,16 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+*.sublime-license
+*.exe
+*.dll
+*.info
+*.crt
+
+# Whitelist some files
+!.gitignore
+
+# track all in ./Packages/User except pkg control tmp files
+!User/
+
+# track Material Theme
+!Material Theme/

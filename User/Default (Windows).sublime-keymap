@@ -1,0 +1,5 @@
+[
+  { "keys": ["f11"], "command": "jump_back" },
+  { "keys": ["f10"], "command": "jump_forward" },
+  { "keys": ["ctrl+w"], "command": "close_guard" },
+]

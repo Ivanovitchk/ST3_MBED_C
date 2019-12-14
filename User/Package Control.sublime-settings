@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AlignTab",
+		"BracketHighlighter",
+		"SublimeCImproved_VNR",
+		"ColorPicker",
+		"DocBlockr",
+		"EasyClangComplete",
+		"GitGutter",
+		"Hex to Int Preview",
+		"Hex-Bin System",
+		"HexViewer",
+		"Increment Selection",
+		"MarkdownLivePreview",
+		"Material Theme",
+		"Maybs Quit",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"Sublimerge 3",
+		"Super Calculator",
+		"SyncedSideBar",
+		"TabsExtra",
+		"TrailingSpaces"
+	],
+	"repositories":
+	[
+		"https://github.com/Ivanovitchk/SublimeCImproved_VNR",
+		"https://github.com/Ivanovitchk/EasyClangComplete"
+	]
+}

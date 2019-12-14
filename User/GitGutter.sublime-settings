@@ -1,0 +1,11 @@
+// GitGutter Settings - User
+{
+	"enable": true,
+  "protected_regions":
+  [
+      "easy_clang_complete_errors",
+      "bookmarks",
+      "ecc"
+  ],
+  "diff_popup_default_mode": "diff",
+}
