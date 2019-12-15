@@ -1,12 +1,15 @@
-# SublimeText3 customizations
+# Customized Sublime Text 3 for embedded-C
 
-- customized config of Sublime Text 3 editor
+- Heavily customized config of Sublime Text 3 editor tailored for embedded-C
+programming.
 
-- includes V-naming rules syntax highlighting
+- includes many useful plugins like bin<->hex converters, hex viewer and a real-time C/C++ linter
 
-- includes many usefull plugins for embedded dev
+- includes syntax highlighting like :<br/><br/>
+<img width="793" alt="syntax_1" src="https://user-images.githubusercontent.com/12053635/70868948-1bc20400-1f86-11ea-86a8-63e7638bb4fe.PNG"> <br/>
+  Only supported with the above black-background color scheme for now
 
-- for new users, this [video][0] is a good start on how to use the awesome editor features of ST3
+- for newcomers, this [video][0] is a good start to discover sublime basics and it's <br/> awesome text-editing powers like multiple cursors, selections, snippet-system, ...
 
 
 
@@ -17,44 +20,47 @@
 
   - download and install [Sublime Text 3][1]
 
-  - open sublime, type "CTRL + SHIFT + P" to open the command palette
+  - *clone* this repo somewhere on your computer, eg *desktop*.
 
-  - type Install Package Control and press enter
+  - launch ST3 and press simultaneously **CTRL + SHIFT + P** to open the *command palette*
 
-  - wait and exit sublime text (make sur to close *all* open instances !)
+  - type **Install Package Control** (or just **pcip**) and press enter
 
-  - clone this repo somewhere on your computer, eg desktop.
+  - wait a bit and exit sublime text (make sur to close **all** open instances !)
 
-  - open the repo and copy all it's content (ctrl+A inside the repo root directory) and paste it to
-  **C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\.**. Overwrite files if asked.
+  - copy & paste the repo contents (ctrl+A in root directory) **inside** <br/>
+    **C:/Users/YOURNAME/AppData/Roaming/Sublime Text 3/Packages/.** <br/>
+    Overwrite files if asked.
 
-  - All customizations will apply on launch (packages downloads & install will happen, which
-  will take a few minutes or more depending on your itnernet speed).
-  Progress can be tracked by view menu & console
+  - ST customizations will apply on launch:
+      - don't worry about the garbled UI, we'll fix it later
+      - install of all the plugins might take a few minutes depending on your bandwidth.
+      - plugins will open update tabs as they install themselves,
+      - progress can be tracked by opening the console (press " **²** " key) until log spam stops.
 
-  - you will have a garbled interface until you open the command palette (CTRL + SHIFT + P)
-    and type "package control : upgrade / overwrite all packages", wait until completion
+  - To fix the UI, open the *command palette* (**CTRL + SHIFT + P**) <br/>
+    Type **package control : upgrade / overwrite all packages** (or just **pc uov**) <br/>
+    Wait until completion.
 
-  - close all the package-controlled-opened plugin tabs
-
-  - restart sublime one last time and you're good to go.
+  - restart ST one last time and you're good to go.
 
 
 
 - ## if sublime is already installed on your system
 
-  - close all instances of sublime
+  - close **all** instances of sublime
 
-  - go to **C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\.** and make a backup somewhere else
+  - go to **C:/Users/YOURNAME/AppData/Roaming/Sublime Text 3/Packages/.** <br/>
+    Make a backup somewhere else.
 
-  - follow the "if sublime is not already installed" procedure except it's first step
+  - follow the *if sublime is not already installed* procedure except the 1st step
 
   - manually merge back the contents of the previous install to the cloned repo.
 
   - If you customized some settings & installed plugins before, pay attention to
 
-      - ".\Packages\User\Preferences.sublime-settings" if manually modified before
-      - ".\Packages\User\Package Control.sublime-settings" if manually modified before
+      - **./Packages/User/Preferences.sublime-settings**
+      - **./Packages/User/Package Control.sublime-settings**
 
 
 # Optional
@@ -65,7 +71,7 @@
 
      - LLVM v9.0.0 tested OK as of Dec. 2019
      - linting requires per-project configuration fo the EasyClangComplete plugin.
-       A guide & template for this will be provided in the future.
+     - a guide & template .sublime-project files will be provided soon™...
 
 
 
