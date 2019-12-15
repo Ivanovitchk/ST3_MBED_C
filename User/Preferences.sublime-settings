@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+  "show_git_status": false,
 	"binary_file_patterns":
 	[
 		"*.dds",
