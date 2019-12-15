@@ -2,6 +2,15 @@
 	"extensions":
 	[
 		"c",
-		"h"
+		"h",
+		"s",
+		"ld",
+		"rc",
+		"grd",
+		"850",
+		"icf",
+		"can",
+		"template",
+		"example"
 	]
 }
