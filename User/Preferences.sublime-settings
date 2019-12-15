@@ -75,6 +75,19 @@
 	"material_theme_tabs_separator": true,
 	"material_theme_titlebar": true,
 	"material_theme_tree_headings": true,
+	"mdpopups.sublime_user_lang_map":
+	{
+		"c":
+		[
+			[
+				"c",
+				"c++"
+			],
+			[
+				"SublimeCImproved_VNR/C Improved"
+			]
+		]
+	},
 	"mouse_wheel_switches_tabs": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
