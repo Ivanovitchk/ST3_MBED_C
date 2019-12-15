@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"c",
 		"h",
 		"s",
 		"ld",
@@ -11,6 +10,7 @@
 		"icf",
 		"can",
 		"template",
-		"example"
+		"example",
+		"c"
 	]
 }

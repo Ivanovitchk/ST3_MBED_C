@@ -1,6 +1,5 @@
 {
 	"always_show_minimap_viewport": true,
-  "show_git_status": false,
 	"binary_file_patterns":
 	[
 		"*.dds",
@@ -99,6 +98,7 @@
 	"save_on_focus_lost": true,
 	"show_definitions": true,
 	"show_full_path": true,
+	"show_git_status": false,
 	"tab_size": 2,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
