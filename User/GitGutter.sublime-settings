@@ -1,6 +1,7 @@
 // GitGutter Settings - User
 {
 	"enable": true,
+  "enable_hover_diff_popup": false,
   "protected_regions":
   [
       "easy_clang_complete_errors",
@@ -8,4 +9,6 @@
       "ecc"
   ],
   "diff_popup_default_mode": "diff",
+  "show_line_annotation": "false",
+  "show_status_bar_text": "false"
 }

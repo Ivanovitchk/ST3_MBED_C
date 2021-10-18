@@ -52,6 +52,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ColorPicker",
+		"GitGutter",
+		"Highlight Trailing Whitespace",
+		"PackageResourceViewer",
+		"Sublimerge 3",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -99,8 +104,10 @@
 	"show_definitions": true,
 	"show_full_path": true,
 	"show_git_status": false,
+	"show_git_status_in_status_bar": false,
 	"tab_size": 2,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"update_check": false,
 	"word_wrap": true
 }
