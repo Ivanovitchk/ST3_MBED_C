@@ -148,6 +148,17 @@
       </dict>
     </dict>
 
+    <dict>
+      <key>name</key>
+      <string>@caution@ @fixme etc</string>
+      <key>scope</key>
+      <string>vnr.todo</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF6600</string>
+      </dict>
+    </dict>
 
     <dict>
       <key>name</key>

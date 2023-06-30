@@ -1,6 +1,6 @@
 {
     // Character threshold to search
-    "search_threshold": 75000,
+    "search_threshold": 90000,
     "content_highlight_bar": true,
     "align_content_highlight_bar": false
 }
