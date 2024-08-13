@@ -195,7 +195,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#DF2C2CAA</string>
+        <string>#ff9e03</string>
 <!--         <key>fontStyle</key>
         <string>italic</string> -->
       </dict>
@@ -209,7 +209,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF792DAA</string>
+        <string>#FF0000</string>
 <!--         <key>fontStyle</key>
         <string>italic</string> -->
       </dict>

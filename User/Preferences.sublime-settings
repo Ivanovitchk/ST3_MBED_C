@@ -2,6 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
+		"*.bin",
 		"*.dds",
 		"*.dep",
 		"*.dll",
@@ -54,6 +55,7 @@
 	"ignored_packages":
 	[
 		"ColorPicker",
+		"EasyClangComplete",
 		"Highlight Trailing Whitespace",
 		"PackageResourceViewer",
 		"Sublimerge 3",
@@ -64,6 +66,7 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"index_files": true,
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"margin": 0,
