@@ -4,9 +4,7 @@
   "enable_hover_diff_popup": false,
   "protected_regions":
   [
-      "easy_clang_complete_errors",
-      "bookmarks",
-      "ecc"
+      "bookmarks"
   ],
   "diff_popup_default_mode": "diff",
   "show_line_annotation": "false",

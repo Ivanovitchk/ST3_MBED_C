@@ -10,12 +10,10 @@
 		"BracketHighlighter",
 		"ColorPicker",
 		"DocBlockr",
-		"EasyClangComplete",
 		"GitGutter",
 		"Hex to Int Preview",
 		"Hex-Bin System",
 		"HexViewer",
-		"Highlight Trailing Whitespace",
 		"Increment Selection",
 		"MarkdownLivePreview",
 		"Material Theme",
@@ -24,7 +22,6 @@
 		"PackageResourceViewer",
 		"SideBarEnhancements",
 		"SublimeCImproved_VNR",
-		"Sublimerge 3",
 		"Super Calculator",
 		"SyncedSideBar",
 		"TabsExtra",
@@ -32,7 +29,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/Ivanovitchk/SublimeCImproved_VNR",
-		"https://github.com/Ivanovitchk/EasyClangComplete"
-	]
+		"https://github.com/Ivanovitchk/SublimeCImproved_VNR"
+	],
 }

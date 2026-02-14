@@ -1,0 +1,40 @@
+[
+    // Override: UI font size
+    {
+        "class": "label_control",
+        "font.size": 13
+    },
+
+    // Override: Minimap viewport - bright green, high visibility
+    {
+        "class": "minimap_control",
+        "viewport_color": [0, 255, 0, 80],
+        "viewport_opacity": 0.6
+    },
+
+    // Override: Bracket highlight color - lime green
+    {
+        "class": "bracket_highlight",
+        "color": [128, 255, 0, 180]
+    },
+
+    // Override: Sidebar label font
+    {
+        "class": "sidebar_label",
+        "font.face": "Segoe UI Variable Static Display",
+        "font.size": 13
+    },
+
+    // Override: Sidebar selected file label - bright green
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [0, 255, 0]
+    },
+
+    // Override: Tighter sidebar row spacing (compact_sidebar default is [24, 5])
+    {
+        "class": "sidebar_tree",
+        "row_padding": [24, 2]
+    }
+]
